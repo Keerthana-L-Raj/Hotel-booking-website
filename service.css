@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .header img{
+ width: 50px;
+ height: 50px;
+ }
+ .header h1{
+  font-family: "Edu QLD Beginner", cursive; 
+  color: rgb(4, 108, 4);
+ }
+ .header-1 ul li a{
+    text-decoration: none;
+    color: rgb(3, 43, 3);
+ }
+ .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.connect{
+    color:rgb(7, 61, 7) ; 
+    font-family: "Libre Baskerville", serif;
+    padding-left: 120px;
+}
+.container1 input{
+    text-decoration: none;
+    color:rgb(7, 61, 7) ;
+    font-family: "Libre Baskerville", serif;
+}
+.container2 img{
+    padding-top: 150px;
+}
+footer{
+    background-color: rgb(6, 56, 6);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.upfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.up1 h1{
+    color: white;
+    
+}
+.up2 i{
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+    width: 50px;
+    size-adjust: 50px;
+}
+.footer-1{
+    color: white;
+    text-decoration: none;
+}
+.footer-1 p a{
+    text-decoration: none;
+    color: white;
+}

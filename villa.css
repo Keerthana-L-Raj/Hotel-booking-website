@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ .header img{
+ width: 50px;
+ height: 50px;
+ }
+ .header h1{
+  font-family: "Edu QLD Beginner", cursive; 
+  color: rgb(4, 108, 4);
+ }
+ .header-1 ul li a{
+    text-decoration: none;
+    color: rgb(3, 43, 3);
+ }
+.section{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.img{
+    justify-content: center;
+}
+.img1{
+   position: relative;
+   
+}
+.img1 img{
+    width: 1400px;
+    height: 600px;
+     border-radius: 1cqw;
+}
+.img2{
+    position: absolute;
+    top: 300px;
+    justify-content: center;
+    
+}
+.imgb input{
+   padding: 5px;
+}
+.imga{
+padding-left: 350px;
+
+}
+.imga h2{
+    color:white ;
+    font-family: "Alfa Slab One", serif;
+}
+.imgb{
+    padding-left:50px;
+    padding-right: 50px;
+    background-color: rgb(169, 208, 169);;
+    margin-left: 330px;
+     border-radius: 1cqw;
+}
+.imgb input{
+    border-color: black;
+    border-radius: 1cqh;
+}
+.imgb button{
+     border-radius: 1cqw;
+}
+.villa-1{
+    display: flex;
+    width: 950px;
+    height: 350px;
+    text-align: left;
+    justify-content: space-between;
+}
+.villas{
+    padding-left: 0px;
+    padding-right: px;
+    margin-left: 250px;
+    width: 1050px;
+    background-color: rgb(209, 207, 207);
+    border-radius: 2cqh;
+    height:275px ;
+}
+.heading h1{
+      font-family: "PT Serif", serif;
+  color: rgb(4, 108, 4);
+  padding-left: 100px;
+}
+.villa-a img{
+    width: 450px;
+    height: 275px;
+    padding-right: 20px;
+    border-radius: 2cqh;
+
+}
+.villa-b{
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 5px;
+}
+.villa-b p{
+font-family: "DM Serif Display", serif; 
+}
+
+.villa-c img{
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+footer{
+    background-color: rgb(6, 56, 6);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.upfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.up1 h1{
+    color: white;
+    
+}
+.up2 i{
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+    width: 50px;
+    size-adjust: 50px;
+}
+.footer-1{
+    color: white;
+    text-decoration: none;
+}
+.footer-1 p a{
+    text-decoration: none;
+    color: white;
+}

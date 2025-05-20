@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .header img{
+ width: 50px;
+ height: 50px;
+ }
+ .header h1{
+  font-family: "Edu QLD Beginner", cursive; 
+  color: rgb(4, 108, 4);
+ }
+ .header-1 ul li a{
+    text-decoration: none;
+    color: rgb(3, 43, 3);
+ }
+.section{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.img{
+    justify-content: center;
+}
+.img1{
+   position: relative;
+   
+}
+.img1 img{
+    width: 1400px;
+    height: 600px;
+     border-radius: 1cqw;
+}
+.img2{
+    position: absolute;
+    top: 350px;
+    justify-content: center;
+    
+}
+.imgb input{
+   padding: 5px;
+}
+.imga{
+padding-left: 350px;
+
+}
+.imga h2{
+    color:white ;
+    font-family: "Alfa Slab One", serif;
+}
+.imgb{
+    padding-left:50px;
+    padding-right: 50px;
+    background-color: rgb(169, 208, 169);;
+    margin-left: 330px;
+     border-radius: 1cqw;
+}
+.imgb input{
+    border-color: black;
+    border-radius: 1cqh;
+}
+.imgb button{
+     border-radius: 1cqw;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(169, 208, 169);
+    padding-left: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 10px;
+     border-radius: 1cqw;
+}
+.banner1 i{
+    color: green;
+}
+.banner1 h6{
+    font-family: "DM Serif Display", serif; 
+}
+.banner1{
+    display: flex;
+    padding-top: 35px;
+    justify-content: space-between;
+}
+.banner1 i{
+    font-size: x-large;
+    top: 1px;
+}
+.banner2 button{
+    border-radius: 1cqw;
+}
+.rowcol{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.row{
+    width: 1400px;
+    height: 100px;
+   
+    justify-content: center;
+}
+.col{
+    width: 400px;
+    height:100px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(235, 232, 232, 0.826);
+    margin-left:5px ;
+    margin-right: 5px;
+    border-radius: 1cqw;
+}
+.col1{
+    padding-top: 12px;
+    width: 310px;
+}
+.col2 img{
+width: 280px;
+height: 100px;
+border-radius: 1cqw;
+}
+.col1 p a{
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}
+.col1 h6{
+   font-family: "DM Serif Display", serif;  
+}
+.pic-carousel h1{
+    padding-left: 50px;
+    font-family: "PT Serif", serif;
+
+}
+.rows{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.column a{
+    text-decoration: none;
+}
+.column a h6{
+    color: white;
+    position: absolute;
+    top: 1420px;
+    padding-left: 10px;
+}
+.column a img{
+    width: 250px;
+    height: 350px;
+    border-radius: 1cqw;
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+.column a img:hover{  
+    opacity: 0.8;
+}
+.rowss{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.columns a{
+    text-decoration: none;
+}
+.columns a h6{
+    color: white;
+    position: absolute;
+    top: 1820px;
+    padding-left: 10px;
+}
+.columns a img{
+    width: 250px;
+    height: 350px;
+    border-radius: 1cqw;
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+.columns a img:hover{
+    opacity: 0.8;
+}
+
+.cards-in-carousel h1{
+padding-left: 50px;
+    font-family: "PT Serif", serif;
+}
+.cards-in-carousel h6{
+    padding-left: 50px;
+}
+.button a{
+    padding-left: 48px;
+    text-decoration: none;
+    color: black;
+}
+.hr{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.cardsrow{
+    display: flex;
+    justify-content: space-around;
+    padding-left: -20px;
+    padding-right: 250px;
+}
+.cardscol{
+   width: 40px;
+    height: 550px; 
+}
+.cardscol a{
+    text-decoration: none;
+    color: black;
+}
+.cardscol a img{
+   width: 250px;
+   height: 0px;
+}
+.chicago h1{
+   padding-left: 50px;
+    font-family: "PT Serif", serif; 
+}
+.chicago h6{
+    padding-left: 50px;
+}
+.row-chicago{
+    display: flex;
+    justify-content: space-around;
+}
+.col-chicago img{
+    border-radius: 1cqh;
+    width: 450px;
+    height: 250px;
+    position: relative;
+}
+.col-chicago h6{
+    position: absolute;
+    top: 2970px;
+    color: white;
+}
+footer{
+    background-color: rgb(6, 56, 6);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.upfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.up1 h1{
+    color: white;
+    
+}
+.up2 i{
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+    width: 50px;
+    size-adjust: 50px;
+}
+.footer-1{
+    color: white;
+    text-decoration: none;
+}
+.footer-1 p a{
+    text-decoration: none;
+    color: white;
+}
