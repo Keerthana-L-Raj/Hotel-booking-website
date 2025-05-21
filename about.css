@@ -2,6 +2,47 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* For mobile phones (up to 600px) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr; /* Stack columns vertically */
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* For tablets (601px to 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+
+
+
 header{
     background-color: white;
     position: sticky;
